@@ -1,0 +1,3 @@
+PASS: 160 PCB component-pin net assignments match the schematic model.
+PASS: reserved pads remain unassigned.
+Copper items (tracks and vias): 624

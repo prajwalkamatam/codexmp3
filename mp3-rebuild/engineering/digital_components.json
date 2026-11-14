@@ -1,0 +1,788 @@
+[
+  {
+    "ref": "U1",
+    "lib": "Espressif",
+    "name": "ESP32-WROVER-E",
+    "value": "ESP32-WROVER-E (memory variant TBD)",
+    "fp": "Local:ESP32-WROVER-E",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "ESP_EN",
+      "4": "BTN_PWR",
+      "5": "BTN_PLAY",
+      "6": "BATT_SENSE",
+      "7": "IO_INT",
+      "8": "I2C_SDA",
+      "9": "I2C_SCL",
+      "10": "I2S_WS",
+      "11": "I2S_BCK",
+      "12": "I2S_DATA",
+      "13": "AMP_ENABLE",
+      "14": "STRAP_GPIO12",
+      "15": "GND",
+      "16": "SD_CS",
+      "23": "STRAP_GPIO15",
+      "24": "STRAP_GPIO2",
+      "25": "ESP_BOOT",
+      "26": "TFT_BL",
+      "29": "TFT_CS",
+      "30": "SPI_SCK",
+      "31": "SPI_MISO",
+      "33": "TFT_DC",
+      "34": "UART_RX",
+      "35": "UART_TX",
+      "36": "TFT_RST",
+      "37": "SPI_MOSI",
+      "38": "GND",
+      "39": "GND"
+    },
+    "x": 69.85,
+    "y": 110.49,
+    "section": "MCU"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "ESP_EN"
+    },
+    "x": 149.86,
+    "y": 54.61,
+    "section": "bias"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "ESP_BOOT"
+    },
+    "x": 195.58,
+    "y": 54.61,
+    "section": "bias"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "STRAP_GPIO12"
+    },
+    "x": 240.03,
+    "y": 54.61,
+    "section": "bias"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "STRAP_GPIO2"
+    },
+    "x": 284.48,
+    "y": 54.61,
+    "section": "bias"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "STRAP_GPIO15"
+    },
+    "x": 330.2,
+    "y": 54.61,
+    "section": "bias"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "TFT_CS"
+    },
+    "x": 149.86,
+    "y": 115.57,
+    "section": "bias"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "SD_CS"
+    },
+    "x": 195.58,
+    "y": 115.57,
+    "section": "bias"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "TFT_RST"
+    },
+    "x": 240.03,
+    "y": 115.57,
+    "section": "bias"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "AMP_ENABLE"
+    },
+    "x": 284.48,
+    "y": 115.57,
+    "section": "bias"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "TFT_BL"
+    },
+    "x": 330.2,
+    "y": 115.57,
+    "section": "bias"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "name": "C",
+    "value": "1uF / 10V",
+    "fp": "Local:C_0603_1608Metric",
+    "pins": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "x": 149.86,
+    "y": 175.26,
+    "section": "decoupling"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF / 10V",
+    "fp": "Local:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 195.58,
+    "y": 175.26,
+    "section": "decoupling"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device",
+    "name": "C",
+    "value": "10uF / 10V",
+    "fp": "Local:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 240.03,
+    "y": 175.26,
+    "section": "decoupling"
+  },
+  {
+    "ref": "SW8",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "RESET",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "x": 284.48,
+    "y": 175.26,
+    "section": "reset"
+  },
+  {
+    "ref": "SW9",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BOOT",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "ESP_BOOT",
+      "2": "GND"
+    },
+    "x": 330.2,
+    "y": 175.26,
+    "section": "reset"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x08",
+    "value": "GC9A01 MODULE INTERFACE",
+    "fp": "Local:PinHeader_1x08_P2.54mm_Vertical",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "SPI_MOSI",
+      "4": "SPI_SCK",
+      "5": "TFT_CS",
+      "6": "TFT_DC",
+      "7": "TFT_RST",
+      "8": "TFT_BL"
+    },
+    "x": 420.37,
+    "y": 64.77,
+    "section": "display"
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "REGULATED 3V3 / GND / BAT SENSE INPUT",
+    "fp": "Local:PinHeader_1x03_P2.54mm_Vertical",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "VBAT_SENSE_IN"
+    },
+    "x": 420.37,
+    "y": 124.46,
+    "section": "external power"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "3V3 LOGIC UART / GND",
+    "fp": "Local:PinHeader_1x03_P2.54mm_Vertical",
+    "pins": {
+      "1": "UART_TX",
+      "2": "UART_RX",
+      "3": "GND"
+    },
+    "x": 420.37,
+    "y": 175.26,
+    "section": "external USB-UART"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "I2S TO PENDING AUDIO SHEET",
+    "fp": "Local:PinHeader_1x06_P2.54mm_Vertical",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "I2S_BCK",
+      "4": "I2S_WS",
+      "5": "I2S_DATA",
+      "6": "AMP_ENABLE"
+    },
+    "x": 420.37,
+    "y": 224.79,
+    "section": "external audio"
+  },
+  {
+    "ref": "U4",
+    "lib": "Interface_Expansion",
+    "name": "TCA9534",
+    "value": "TCA9534PWR",
+    "fp": "Local:TSSOP-16_4.4x5mm_P0.65mm",
+    "pins": {
+      "1": "GND",
+      "2": "GND",
+      "3": "GND",
+      "4": "BTN_NEXT",
+      "5": "BTN_PREV",
+      "6": "BTN_VOLUP",
+      "7": "BTN_VOLDN",
+      "8": "GND",
+      "9": "BTN_MODE",
+      "10": "CHG_STAT",
+      "11": "SD_CD",
+      "12": "HP_DET",
+      "13": "IO_INT",
+      "14": "I2C_SCL",
+      "15": "I2C_SDA",
+      "16": "+3V3"
+    },
+    "x": 69.85,
+    "y": 294.64,
+    "section": "buttons"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "I2C_SDA"
+    },
+    "x": 149.86,
+    "y": 250.19,
+    "section": "bias"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device",
+    "name": "R",
+    "value": "4.7k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "I2C_SCL"
+    },
+    "x": 195.58,
+    "y": 250.19,
+    "section": "bias"
+  },
+  {
+    "ref": "R13",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "IO_INT"
+    },
+    "x": 240.03,
+    "y": 250.19,
+    "section": "bias"
+  },
+  {
+    "ref": "R14",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_PWR"
+    },
+    "x": 284.48,
+    "y": 250.19,
+    "section": "bias"
+  },
+  {
+    "ref": "R15",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_PLAY"
+    },
+    "x": 330.2,
+    "y": 250.19,
+    "section": "bias"
+  },
+  {
+    "ref": "R16",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_NEXT"
+    },
+    "x": 149.86,
+    "y": 304.8,
+    "section": "bias"
+  },
+  {
+    "ref": "R17",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_PREV"
+    },
+    "x": 195.58,
+    "y": 304.8,
+    "section": "bias"
+  },
+  {
+    "ref": "R18",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_VOLUP"
+    },
+    "x": 240.03,
+    "y": 304.8,
+    "section": "bias"
+  },
+  {
+    "ref": "R19",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_VOLDN"
+    },
+    "x": 284.48,
+    "y": 304.8,
+    "section": "bias"
+  },
+  {
+    "ref": "R20",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "BTN_MODE"
+    },
+    "x": 330.2,
+    "y": 304.8,
+    "section": "bias"
+  },
+  {
+    "ref": "R21",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "CHG_STAT"
+    },
+    "x": 149.86,
+    "y": 359.41,
+    "section": "bias"
+  },
+  {
+    "ref": "R22",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "SD_CD"
+    },
+    "x": 195.58,
+    "y": 359.41,
+    "section": "bias"
+  },
+  {
+    "ref": "R23",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "HP_DET"
+    },
+    "x": 240.03,
+    "y": 359.41,
+    "section": "bias"
+  },
+  {
+    "ref": "SW1",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_PWR",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_PWR",
+      "2": "GND"
+    },
+    "x": 69.85,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "SW2",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_PLAY",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_PLAY",
+      "2": "GND"
+    },
+    "x": 119.38,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "SW3",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_NEXT",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_NEXT",
+      "2": "GND"
+    },
+    "x": 170.18,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "SW4",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_PREV",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_PREV",
+      "2": "GND"
+    },
+    "x": 219.71,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "SW5",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_VOLUP",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_VOLUP",
+      "2": "GND"
+    },
+    "x": 270.51,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "SW6",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_VOLDN",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_VOLDN",
+      "2": "GND"
+    },
+    "x": 320.04,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "SW7",
+    "lib": "Switch",
+    "name": "SW_Push",
+    "value": "BTN_MODE",
+    "fp": "Local:SW_SPST_TL3342",
+    "pins": {
+      "1": "BTN_MODE",
+      "2": "GND"
+    },
+    "x": 369.57,
+    "y": 454.66,
+    "section": "buttons"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF / 10V",
+    "fp": "Local:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 69.85,
+    "y": 389.89,
+    "section": "decoupling"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF / 10V",
+    "fp": "Local:C_0603_1608Metric",
+    "pins": {
+      "1": "BTN_PWR",
+      "2": "GND"
+    },
+    "x": 119.38,
+    "y": 510.54,
+    "section": "decoupling"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF / 10V",
+    "fp": "Local:C_0603_1608Metric",
+    "pins": {
+      "1": "BTN_PLAY",
+      "2": "GND"
+    },
+    "x": 170.18,
+    "y": 510.54,
+    "section": "decoupling"
+  },
+  {
+    "ref": "R24",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k 1%",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "VBAT_SENSE_IN",
+      "2": "BATT_SENSE"
+    },
+    "x": 219.71,
+    "y": 510.54,
+    "section": "bias"
+  },
+  {
+    "ref": "R25",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k 1%",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "BATT_SENSE",
+      "2": "GND"
+    },
+    "x": 270.51,
+    "y": 510.54,
+    "section": "bias"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device",
+    "name": "C",
+    "value": "100nF / 10V",
+    "fp": "Local:C_0603_1608Metric",
+    "pins": {
+      "1": "BATT_SENSE",
+      "2": "GND"
+    },
+    "x": 320.04,
+    "y": 510.54,
+    "section": "decoupling"
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "CHARGER / CARD / HEADPHONE STATUS",
+    "fp": "Local:PinHeader_1x04_P2.54mm_Vertical",
+    "pins": {
+      "1": "CHG_STAT",
+      "2": "SD_CD",
+      "3": "HP_DET",
+      "4": "GND"
+    },
+    "x": 420.37,
+    "y": 299.72,
+    "section": "external status"
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "3V3 SPI MICROSD INTERFACE",
+    "fp": "Local:PinHeader_1x06_P2.54mm_Vertical",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "SPI_MOSI",
+      "4": "SPI_MISO",
+      "5": "SPI_SCK",
+      "6": "SD_CS"
+    },
+    "x": 420.37,
+    "y": 389.89,
+    "section": "external SD socket"
+  },
+  {
+    "ref": "R26",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "fp": "Local:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "SPI_MISO"
+    },
+    "x": 369.57,
+    "y": 510.54,
+    "section": "bias"
+  },
+  {
+    "ref": "#FLG1",
+    "lib": "power",
+    "name": "PWR_FLAG",
+    "value": "PWR_FLAG",
+    "fp": "",
+    "pins": {
+      "1": "+3V3"
+    },
+    "x": 420.37,
+    "y": 510.54,
+    "section": "power source declaration"
+  },
+  {
+    "ref": "#FLG2",
+    "lib": "power",
+    "name": "PWR_FLAG",
+    "value": "PWR_FLAG",
+    "fp": "",
+    "pins": {
+      "1": "GND"
+    },
+    "x": 464.82,
+    "y": 510.54,
+    "section": "power source declaration"
+  }
+]

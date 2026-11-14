@@ -1,0 +1,3 @@
+PASS: 160 exported component-pin assignments match the digital-core model.
+PASS: supply, ground, I2S, I2C, input-only GPIO and reserved-pad assertions.
+Scope: digital schematic only; no full-board DRC or production-readiness claim.
